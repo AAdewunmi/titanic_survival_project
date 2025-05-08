@@ -1,6 +1,6 @@
 # 🚢 Titanic Survival Prediction
 
-This Python-based data science project analyses passenger data from the Titanic disaster to predict survival using data preprocessing, Exploratory Data Analysis (EDA), and machine learning. The code is structured for use in **PyCharm** and consists of modular `.py` script files.
+This Python-based data science project analyses passenger data from the Titanic disaster to predict survival using data preprocessing, Exploratory Data Analysis (EDA), and machine learning. The code is structured for use in **vscode** and consists of modular `.py` script files.
 
 ---
 
@@ -47,7 +47,7 @@ titanic_survival_project/
 - scikit-learn, joblib
 - powerpoint
 - csv file
-- pycharm
+- vscode
 
 ---
 
