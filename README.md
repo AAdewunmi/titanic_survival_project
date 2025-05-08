@@ -1,4 +1,4 @@
-# 🚢 Titanic Survival Prediction
+# 🚢 Titanic Survival Prediction (Data Science) Project 
 
 This Python-based data science project analyses passenger data from the Titanic disaster to predict survival using data preprocessing, Exploratory Data Analysis (EDA), and machine learning. The code is structured for use in **vscode** and consists of modular `.py` script files.
 
@@ -76,17 +76,66 @@ python src/model.py
 ```
 
 ---
+## 📊 Project Workflow
 
-## 📈 Visualizations
+### 1. Data Exploration & Cleaning
+- Dropped columns with excessive missing values (`deck`, `embark_town`)
+- Filled missing age values with the median
+- Encoded categorical variables like `sex` and `embarked`
 
-Output plots will be saved in the `figures/` folder.
+### 2. Exploratory Data Analysis (EDA)
+- Visualized survival rates by gender and class
+- Created a correlation heatmap
+- Discovered that `sex`, `pclass`, and `fare` are strong indicators of survival
+
+### 3. Feature Engineering
+Selected key features:
+- `pclass`, `sex`, `age`, `sibsp`, `parch`, `fare`, `embarked`
+
+### 4. Model Training
+- Used `RandomForestClassifier` from scikit-learn
+- Trained and tested the model using an 80/20 train-test split
+
+### 5. Evaluation
+- Achieved ~80% accuracy
+- Evaluated with precision, recall, and F1 score
+- Visualized feature importance
+
+### 6. Results
+- Gender (`sex`) and class (`pclass`) were the most influential features.
+- Model demonstrated good generalization on unseen data.
+- The logistic regression model achieved an accuracy of 0.8101 on the test set. This means the model correctly predicted survival for about 81% of passengers.
 
 ---
 
-## ✅ Model Performance
+## 📌 Power Point Presentation
 
-- Accuracy: ~80%
-- Key features: `sex`, `pclass`, `fare`
+
+Here is a link to a power point presentation detailing the key findings of the project. 
+
+It's been created using "power_point_presentation.py".
+
+
+[Titanic Survival Prediction Project](Titanic_Survival_Prediction_Project.pptx)
+
+
+---
+
+## 📈 Visualizations
+
+- Age Distribution
+  
+![Age Distribution](figures/age_distribution.png)
+
+- Survival by Gender
+  
+![Survival by Gender](figures/survival_by_sex.png)
+
+---
+
+
+## 📬 Contact
+If you have questions or suggestions, feel free to reach out or open an issue.
 
 ---
 
