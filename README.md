@@ -55,6 +55,10 @@ titanic_survival_project/
 
 1. **Clone the repository**
 
+```
+https://github.com/AAdewunmi/titanic_survival_project.git
+```
+
 2. **Create a virtual environment (macOS/Linux)**
 
 ```bash
@@ -86,12 +90,6 @@ Output plots will be saved in the `figures/` folder.
 
 ---
 
-## 📄 License
-
-MIT License
-
----
-
 ## 👤 Author
 
-Your Name – [GitHub](https://github.com/yourusername)
+Adrian Adewunmi – [GitHub](https://github.com/AAdewunmi)
