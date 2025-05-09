@@ -133,7 +133,14 @@ It's been created using "power_point_presentation.py".
 
 ---
 
+## 🚀 Next Steps (Potential Improvements)
 
+* Explore other classification models (e.g., Random Forest, Support Vector Machines).
+* Perform feature scaling and selection.
+* Conduct more in-depth EDA.
+* Fine-tune the model hyperparameters.
+
+---
 ## 📬 Contact
 If you have questions or suggestions, feel free to reach out or open an issue.
 
